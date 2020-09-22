@@ -12,7 +12,7 @@ def run_guessing_game
     end
 
     puts "Guess a number between 1 and 6.\n"
-    number = rand(1..6).to_s
+    number = rand(6) + 1
     input = gets.chomp
   end
 
