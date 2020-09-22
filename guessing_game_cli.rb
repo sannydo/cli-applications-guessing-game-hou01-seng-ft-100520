@@ -1,4 +1,3 @@
-require 'pry'
 
 def run_guessing_game
   puts "Guess a number between 1 and 6.\n"
@@ -6,12 +5,14 @@ def run_guessing_game
 
   input = gets.chomp
   
+  
     if input == number
       puts "You guessed the correct number!"
     else
       puts "Sorry! The computer guessed #{number}."
     end
   
+if input == exit 
 
   puts "Goodbye!"
 end
